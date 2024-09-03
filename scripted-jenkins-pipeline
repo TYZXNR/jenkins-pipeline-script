@@ -25,7 +25,7 @@ node {
     }
     stage("Docker Image Tag"){
 
-        sh "docker tag king-httpd josh1991/king-httpd:king-httpd"
+        sh "docker tag tyz-httpd tyzxnr/tyz-httpd:tyz-httpd"
     }
     
     stage("Docker Login to Hub Docker"){
